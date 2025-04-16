@@ -13,3 +13,9 @@ Cypress.Commands.add('login', (
 
     login()
 })
+
+Cypress.Commands.add('Logout', () => {
+    cy.get('.qa-user-avatar').click()
+
+    cy.contains('Sign out').click()
+})

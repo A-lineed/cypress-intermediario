@@ -5,4 +5,5 @@ describe('empty spec', () => {
     cy.get('.qa-user-avatar').should('be.visible')
 
   })
+
 })
